@@ -1,0 +1,17 @@
+.container__header {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    nav{
+        display: flex;
+        flex-direction: row;
+        border: 1px solid  red; 
+    }
+    ul{
+        display: flex;
+        flex-direction: row;
+    }
+    li{
+        list-style: none;
+    }
+}
