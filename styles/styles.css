@@ -1,17 +1,140 @@
+* {
+  box-sizing: border-box;
+}
+
 .container__header {
-  border: 1px solid black;
   display: flex;
+  justify-content: space-between;
   flex-direction: row;
+  width: 100vw;
+  min-width: 320px;
+}
+.container__header .logoPazioli {
+  padding-top: 15px;
+  Width: 66px;
+  Height: 55px;
+}
+.container__header .container__header--nav {
+  display: none;
+}
+.container__header .cardShopping {
+  display: block;
+  padding-bottom: 25px;
+  width: 21px;
+  height: 22px;
+  margin-right: 34px;
+  margin-top: 25px;
 }
 .container__header nav {
+  width: 50%;
   display: flex;
   flex-direction: row;
-  border: 1px solid red;
 }
 .container__header ul {
   display: flex;
   flex-direction: row;
 }
-.container__header li {
-  list-style: none;
+.container__header .container__header-nav .cardShopping {
+  margin-left: 70px;
+}
+
+.container__principalSection {
+  text-align: center;
+}
+.container__principalSection h5 {
+  color: #858585;
+  font-family: "Raleway", sans-serif;
+  font-weight: lighter;
+  margin-bottom: 0px;
+  font-size: 16px;
+}
+.container__principalSection h1 {
+  margin-top: 10px;
+  font-family: "Abril Fatface", cursive;
+  font-size: 32px;
+  font-weight: lighter;
+}
+.container__principalSection .btn__cursos {
+  border: 1px solid black;
+  width: 129px;
+  height: 32px;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: normal;
+  font-size: 14px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  color: #FFFFFF;
+  border-radius: 8px;
+  background-color: black;
+}
+.container__principalSection .btn__adquirir {
+  border: 1px solid black;
+  width: 129px;
+  height: 32px;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: normal;
+  font-size: 14px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  color: #000000;
+  border-radius: 8px;
+  background-color: #FFFFFF;
+}
+
+.container__piano {
+  width: 75vw;
+  max-width: 1000px;
+  min-width: 320px;
+  margin: auto;
+}
+.container__piano .img__pianoBlack {
+  width: 100%;
+}
+.container__piano .container_social_media {
+  display: none;
+}
+
+@media only screen and (min-width: 992px) {
+  .container__header .container__header--nav {
+    display: block;
+  }
+  .container__header .container__header--nav .button__contacto {
+    border: 1px solid black;
+    width: 135px;
+    height: 25px;
+    text-align: center;
+    padding-top: 3.5px;
+    color: #FFFFFF;
+    border-radius: 8px;
+    background-color: #000000;
+    margin-left: 10px;
+    margin-top: 5px;
+  }
+  .container__header ul {
+    padding-left: 120px;
+  }
+  .container__header li {
+    margin: 10px;
+    list-style: none;
+    align-items: flex-end;
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+  }
+  .container__principalSection h1 {
+    margin-top: 10px;
+    font-family: "Abril Fatface", cursive;
+    font-size: 56px;
+    font-weight: lighter;
+  }
+  .container__piano .container_social_media {
+    display: block;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 1300px;
+    top: 780px;
+  }
 }/*# sourceMappingURL=styles.css.map */
