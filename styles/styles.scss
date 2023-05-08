@@ -417,6 +417,657 @@
     }
     
 }
+@media only screen and (max-width:440px){
+    #section2 {
+        background-image: linear-gradient(180deg, #ffffff 0%, rgba(255, 255, 255, 0.820101) 14.06%, rgba(0, 0, 0, 0.75) 37.19%, rgba(0, 0, 0, 0.75) 55.32%, rgba(255, 255, 255, 0.6454) 88.52%, #ffffff 97.7%), url('../img/pianoBackground\ \(2\).png');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .box__flex {
+        display: flex;
+        flex-wrap: wrap-reverse;
+        margin-top: 25px;
+    }
+    .play__pianito {
+        margin-left: 70px;
+        margin-top: 50px;
+    }
+    .play__pianito > .pianito {
+        height: 180px;
+        width: 250px;
+    }
+    .nuevo__modelo {
+        margin-left: 15%;
+    }
+    .nuevo__modelo {
+        width: 250px;
+    }
+    .nuevo__modelo > .new__model {
+        font-size: 20px;
+        text-align: center;
+    }  
+    .info__nuevo__modelo {
+        color: #ffffff;
+        display: block;
+        margin: 5px;
+        margin-top: 10px;
+        padding-left: 45px;
+        width: 250px;
+    }
+    .info__nuevo__modelo > h3 {
+        font-size: 15px;
+    }
+    .valoration {
+        display: flex;
+        font-family: 'Abril Ftaface', cursive;
+    }
+    .valoration > h6, .parrafo__lorem__info {
+        font-size: 12px;
+    }
+    .valoration > .estrellita  {
+        height: 12px;
+        margin-left: 2px;
+        width: 12px;
+    }
+    .div__for__spams {
+        margin-top: 10px;
+        font-size: 12px;
+    }
+    .nuevo {
+        font-family: 'Raleway', sans-serif;
+        font-size: 10px;
+        margin-left: 5px;
+    }
+    .year__2021 {
+        font-family: 'Raleway', sans-serif;
+        font-size: 10px;
+        margin-left: 5px;
+    }
+    .acustico {
+        font-family: 'Raleway', sans-serif;
+        font-size: 10px;
+        margin-left: 5px;
+    }
+    .modelo__cedro {
+        font-family: 'Raleway', sans-serif;
+        font-size: 10px;
+        margin-left: 5px;
+    }
+    .add__to__list {
+        background-color: black;
+        border-bottom: 2px;
+        border-color: #ffffff;
+        border-radius: 8px;
+        color: #ffffff;
+        display: block;
+        height: 25px;
+        justify-content: center;
+        margin-top: 25px;
+        padding-top: 5px;
+        text-align: center;
+        width: 180px;
+    }
+    .add__to__list:hover {
+        background-color: #413f3f;
+        color: rgb(255, 255, 0);
+        cursor: pointer;
+    }
+}
+@media only screen and (min-width:441px){
+    #section2 {
+        background-image: linear-gradient(180deg, #ffffff 0%, rgba(255, 255, 255, 0.820101) 14.06%, rgba(0, 0, 0, 0.75) 37.19%, rgba(0, 0, 0, 0.75) 55.32%, rgba(255, 255, 255, 0.6454) 88.52%, #ffffff 97.7%), url('../img/pianoBackground\ \(2\).png');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .nuevo__modelo {
+        margin-left: 10%;
+    }
+    .box__flex {
+        display: flex;
+        flex-wrap: wrap-reverse;
+        margin-top: 25px;
+    }
+    .estrellita {
+        width: 16px;
+        height: 15px;
+    }
+    .pianito {
+        width: 370px;
+        height: 308px;
+    }
+    .nuevo__modelo {
+        align-items: center;
+        display: flex;
+        height: 62px;
+        margin-left: 14%;
+        width: 360px;
+    }
+    .nuevo__modelo > .new__model {
+        font-family: 'Abril Fatface', cursive;
+        font-size: 28px;
+        margin-top: 65px;
+        text-align: center;
+    }
+    .info__nuevo__modelo {
+        color: #ffffff;
+        width: 250px;
+        margin-top: 25px;
+        margin-left: 40px;
+        display: block;
+    }
+    .new__ebony__f228 {
+        font-family: 'Abril Fatface', cursive;
+        font-size: 20px;
+    }
+    .valoration {
+        display: flex;
+        font-family: 'Raleway', sans-serif;
+        margin-top: 15px;
+    }
+    .since__price {
+        font-family: 'Abril Fatface', cursive;
+        font-size: 20px;
+        margin-top: 15px;
+    }
+    .parrafo__lorem__info {
+        font-family: 'Raleway', sans-serif;
+        font-size: 15px;
+        margin-top: 15px;
+    }
+    .div__for__spams {
+        margin-top: 10px;
+    }
+    .nuevo {
+        font-family: 'Raleway', sans-serif;
+        font-size: 10px;
+        margin-left: 5px;
+    }
+    .year__2021 {
+        font-family: 'Raleway', sans-serif;
+        font-size: 10px;
+        margin-left: 5px;
+    }
+    .acustico {
+        font-family: 'Raleway', sans-serif;
+        font-size: 10px;
+        margin-left: 5px;
+    }
+    .modelo__cedro {
+        font-family: 'Raleway', sans-serif;
+        font-size: 10px;
+        margin-left: 5px;
+    }
+    .add__to__list {
+        background-color: black;
+        border-bottom: 2px;
+        border-color: #ffffff;
+        border-radius: 8px;
+        color: #ffffff;
+        display: block;
+        height: 25px;
+        justify-content: center;
+        margin-top: 45px;
+        text-align: center;
+        width: 180px;
+    }
+    .add__to__list:hover {
+        background-color: #413f3f;
+        color: rgb(255, 255, 0);
+        cursor: pointer;
+    }
+    .play__pianito {
+        margin-left: 90px;
+        margin-top: 50px;
+    }
+    .play__pianito > .pianito {
+        height: 200px;
+        width: 270px;
+    }
+}
+@media only screen and (min-width:520px){
+    #section2 {
+        background-image: linear-gradient(180deg, #ffffff 0%, rgba(255, 255, 255, 0.820101) 14.06%, rgba(0, 0, 0, 0.75) 37.19%, rgba(0, 0, 0, 0.75) 55.32%, rgba(255, 255, 255, 0.6454) 88.52%, #ffffff 97.7%), url('../img/pianoBackground\ \(2\).png');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .nuevo__modelo {
+        margin-left: 10%;
+    }
+    .box__flex {
+        display: flex;
+        flex-wrap: wrap-reverse;
+        margin-top: 25px;
+    }
+    .estrellita {
+        width: 16px;
+        height: 15px;
+    }
+    .pianito {
+        width: 370px;
+        height: 308px;
+    }
+    .nuevo__modelo {
+        align-items: center;
+        display: flex;
+        height: 62px;
+        margin-left: 18%;
+        width: 360px;
+    }
+    .nuevo__modelo > .new__model {
+        font-family: 'Abril Fatface', cursive;
+        font-size: 28px;
+        margin-top: 65px;
+        text-align: center;
+    }
+    .info__nuevo__modelo {
+        color: #ffffff;
+        width: 250px;
+        margin-top: 25px;
+        margin-left: 75px;
+        display: block;
+    }
+    .new__ebony__f228 {
+        font-family: 'Abril Fatface', cursive;
+        font-size: 20px;
+    }
+    .valoration {
+        display: flex;
+        font-family: 'Raleway', sans-serif;
+        margin-top: 15px;
+    }
+    .since__price {
+        font-family: 'Abril Fatface', cursive;
+        font-size: 20px;
+        margin-top: 15px;
+    }
+    .parrafo__lorem__info {
+        font-family: 'Raleway', sans-serif;
+        font-size: 15px;
+        margin-top: 15px;
+    }
+    .div__for__spams {
+        margin-top: 10px;
+    }
+    .nuevo {
+        font-family: 'Raleway', sans-serif;
+        font-size: 10px;
+        margin-left: 5px;
+    }
+    .year__2021 {
+        font-family: 'Raleway', sans-serif;
+        font-size: 10px;
+        margin-left: 5px;
+    }
+    .acustico {
+        font-family: 'Raleway', sans-serif;
+        font-size: 10px;
+        margin-left: 5px;
+    }
+    .modelo__cedro {
+        font-family: 'Raleway', sans-serif;
+        font-size: 10px;
+        margin-left: 5px;
+    }
+    .add__to__list {
+        background-color: black;
+        border-bottom: 2px;
+        border-color: #ffffff;
+        border-radius: 8px;
+        color: #ffffff;
+        display: block;
+        height: 25px;
+        justify-content: center;
+        margin-top: 45px;
+        text-align: center;
+        width: 180px;
+    }
+    .add__to__list:hover {
+        background-color: #413f3f;
+        color: rgb(255, 255, 0);
+        cursor: pointer;
+    }
+    .play__pianito {
+        margin-left: 90px;
+        margin-top: 50px;
+    }
+    .play__pianito > .pianito {
+        height: 200px;
+        width: 270px;
+    }
+}
+@media only screen and (min-width:600px){
+    #section2 {
+        background-image: linear-gradient(180deg, #ffffff 0%, rgba(255, 255, 255, 0.820101) 14.06%, rgba(0, 0, 0, 0.75) 37.19%, rgba(0, 0, 0, 0.75) 55.32%, rgba(255, 255, 255, 0.6454) 88.52%, #ffffff 97.7%), url('../img/pianoBackground\ \(2\).png');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .nuevo__modelo {
+        margin-left: 10%;
+    }
+    .box__flex {
+        display: flex;
+        flex-wrap: wrap-reverse;
+        margin-top: 25px;
+    }
+    .estrellita {
+        width: 16px;
+        height: 15px;
+    }
+    .pianito {
+        width: 370px;
+        height: 308px;
+    }
+    .nuevo__modelo {
+        align-items: center;
+        display: flex;
+        height: 62px;
+        margin-left: 22%;
+        width: 360px;
+    }
+    .nuevo__modelo > .new__model {
+        font-family: 'Abril Fatface', cursive;
+        font-size: 28px;
+        margin-top: 65px;
+        text-align: center;
+    }
+    .info__nuevo__modelo {
+        color: #ffffff;
+        width: 300px;
+        margin-top: 25px;
+        margin-left: 145px;
+        display: block;
+    }
+    .new__ebony__f228 {
+        font-family: 'Abril Fatface', cursive;
+        font-size: 20px;
+    }
+    .valoration {
+        display: flex;
+        font-family: 'Raleway', sans-serif;
+        margin-top: 15px;
+    }
+    .since__price {
+        font-family: 'Abril Fatface', cursive;
+        font-size: 20px;
+        margin-top: 15px;
+    }
+    .parrafo__lorem__info {
+        font-family: 'Raleway', sans-serif;
+        font-size: 15px;
+        margin-top: 15px;
+    }
+    .div__for__spams {
+        margin-top: 10px;
+    }
+    .nuevo {
+        font-family: 'Raleway', sans-serif;
+        font-size: 10px;
+        margin-left: 5px;
+    }
+    .year__2021 {
+        font-family: 'Raleway', sans-serif;
+        font-size: 10px;
+        margin-left: 5px;
+    }
+    .acustico {
+        font-family: 'Raleway', sans-serif;
+        font-size: 10px;
+        margin-left: 5px;
+    }
+    .modelo__cedro {
+        font-family: 'Raleway', sans-serif;
+        font-size: 10px;
+        margin-left: 5px;
+    }
+    .add__to__list {
+        background-color: black;
+        border-bottom: 2px;
+        border-color: #ffffff;
+        border-radius: 8px;
+        color: #ffffff;
+        display: block;
+        height: 25px;
+        justify-content: center;
+        margin-top: 25px;
+        text-align: center;
+        width: 180px;
+    }
+    .add__to__list:hover {
+        background-color: #413f3f;
+        color: rgb(255, 255, 0);
+        cursor: pointer;
+    }
+    .play__pianito {
+        margin-left: 150px;
+        margin-top: 50px;
+    }
+    .play__pianito > .pianito {
+        height: 200px;
+        width: 270px;
+    }
+}
+@media only screen and (min-width:710px){
+    #section2 {
+        background-image: linear-gradient(180deg, #ffffff 0%, rgba(255, 255, 255, 0.820101) 14.06%, rgba(0, 0, 0, 0.75) 37.19%, rgba(0, 0, 0, 0.75) 55.32%, rgba(255, 255, 255, 0.6454) 88.52%, #ffffff 97.7%), url('../img/pianoBackground\ \(2\).png');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .nuevo__modelo {
+        margin-left: 10%;
+    }
+    .box__flex {
+        display: flex;
+        flex-wrap: wrap-reverse;
+        margin-top: 25px;
+    }
+    .estrellita {
+        width: 16px;
+        height: 15px;
+    }
+    .pianito {
+        height: 308px;
+        width: 370px;
+    }
+    .nuevo__modelo {
+        align-items: center;
+        display: flex;
+        height: 62px;
+        margin-left: 32%;
+        width: 360px;
+    }
+    .nuevo__modelo > .new__model {
+        font-family: 'Abril Fatface', cursive;
+        font-size: 28px;
+        margin-top: 65px;
+        text-align: center;
+    }
+    .info__nuevo__modelo {
+        color: #ffffff;
+        width: 350px;
+        margin-top: 25px;
+        margin-left: 245px;
+        display: block;
+    }
+    .new__ebony__f228 {
+        font-family: 'Abril Fatface', cursive;
+        font-size: 20px;
+    }
+    .valoration {
+        display: flex;
+        font-family: 'Raleway', sans-serif;
+        margin-top: 15px;
+    }
+    .since__price {
+        font-family: 'Abril Fatface', cursive;
+        font-size: 20px;
+        margin-top: 15px;
+    }
+    .parrafo__lorem__info {
+        font-family: 'Raleway', sans-serif;
+        font-size: 15px;
+        margin-top: 15px;
+    }
+    .div__for__spams {
+        margin-top: 10px;
+    }
+    .nuevo {
+        font-family: 'Raleway', sans-serif;
+        font-size: 10px;
+        margin-left: 5px;
+    }
+    .year__2021 {
+        font-family: 'Raleway', sans-serif;
+        font-size: 10px;
+        margin-left: 5px;
+    }
+    .acustico {
+        font-family: 'Raleway', sans-serif;
+        font-size: 10px;
+        margin-left: 5px;
+    }
+    .modelo__cedro {
+        font-family: 'Raleway', sans-serif;
+        font-size: 10px;
+        margin-left: 5px;
+    }
+    .add__to__list {
+        background-color: black;
+        border-bottom: 2px;
+        border-color: #ffffff;
+        border-radius: 8px;
+        color: #ffffff;
+        display: block;
+        height: 25px;
+        justify-content: center;
+        margin-top: 25px;
+        text-align: center;
+        width: 180px;
+    }
+    .add__to__list:hover {
+        background-color: #413f3f;
+        color: rgb(255, 255, 0);
+        cursor: pointer;
+    }
+    .play__pianito {
+        margin-left: 250px;
+        margin-top: 50px;
+    }
+    .play__pianito > .pianito {
+        height: 340px;
+        width: 300px;
+    }
+}
+@media only screen and (min-width:1000px){
+    #section2 {
+        background-image: linear-gradient(180deg, #ffffff 0%, rgba(255, 255, 255, 0.820101) 14.06%, rgba(0, 0, 0, 0.75) 37.19%, rgba(0, 0, 0, 0.75) 55.32%, rgba(255, 255, 255, 0.6454) 88.52%, #ffffff 97.7%), url('../img/pianoBackground\ \(2\).png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 700px;
+    
+    }
+    .box__flex {
+        display: flex;
+        margin-top: 100px;
+    }
+    .estrellita {
+        width: 16px;
+        height: 15px;
+    }
+    .pianito {
+        width: 370px;
+        height: 308px;
+    }
+    .nuevo__modelo {
+        align-items: center;
+        display: flex;
+        height: 62px;
+        margin-left: 37%;
+        width: 360px;
+    }
+    .nuevo__modelo > .new__model {
+        font-family: 'Abril Fatface', cursive;
+        font-size: 28px;
+        font-weight: 400;
+        margin-top: 65px;
+        text-align: center;
+    }
+    .info__nuevo__modelo {
+        color: #ffffff;
+        width: 350px;
+        margin: 100px;
+        margin-top: 100px;
+        padding-left: 25px;
+        display: block;
+    }
+    .new__ebony__f228 {
+        font-family: 'Abril Fatface', cursive;
+        font-size: 20px;
+    }
+    .valoration {
+        display: flex;
+        font-family: 'Raleway', sans-serif;
+        margin-top: 15px;
+    }
+    .since__price {
+        font-family: 'Abril Fatface', cursive;
+        font-size: 20px;
+        margin-top: 15px;
+    }
+    .parrafo__lorem__info {
+        font-family: 'Raleway', sans-serif;
+        font-size: 15px;
+        margin-top: 15px;
+    }
+    .div__for__spams {
+        margin-top: 10px;
+    }
+    .nuevo {
+        font-family: 'Raleway', sans-serif;
+        font-size: 10px;
+        margin-left: 5px;
+    }
+    .year__2021 {
+        font-family: 'Raleway', sans-serif;
+        font-size: 10px;
+        margin-left: 5px;
+    }
+    .acustico {
+        font-family: 'Raleway', sans-serif;
+        font-size: 10px;
+        margin-left: 5px;
+    }
+    .modelo__cedro {
+        font-family: 'Raleway', sans-serif;
+        font-size: 10px;
+        margin-left: 5px;
+    }
+    .add__to__list {
+        background-color: black;
+        border-bottom: 2px;
+        border-color: #ffffff;
+        border-radius: 8px;
+        color: #ffffff;
+        display: block;
+        height: 25px;
+        justify-content: center;
+        margin-top: 45px;
+        text-align: center;
+        width: 180px;
+    }
+    .add__to__list:hover {
+        background-color: #413f3f;
+        color: rgb(255, 255, 0);
+        cursor: pointer;
+    }
+    .play__pianito {
+        margin-left: 250px;
+        margin-top: 90px;
+    }
+    .play__pianito > .pianito {
+        height: 400px;
+        width: 400px;
+    }
+}
 @media only screen and (max-width: 768px) {
     .container__pianos {
         display: flex;
