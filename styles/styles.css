@@ -164,7 +164,6 @@
 }
 .container__pianos .container__combo__pianos {
   display: flex;
-  flex-direction: row;
   margin-top: 81px;
   justify-content: space-evenly;
 }
@@ -462,12 +461,12 @@
     flex-direction: column;
     align-content: center;
   }
-  .title__cuestion {
-    font-size: 24px;
-  }
-  .container__combo__pianos {
+  .container__pianos .container__combo__pianos {
     display: flex;
     flex-direction: column;
     align-content: center;
+  }
+  .title__cuestion {
+    font-size: 24px;
   }
 }/*# sourceMappingURL=styles.css.map */
