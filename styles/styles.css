@@ -137,4 +137,337 @@
     left: 1300px;
     top: 780px;
   }
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+}
+
+/*DUDA*/
+.container__pianos {
+  display: flex;
+  flex-direction: column;
+  /*align-content: center;**/
+  align-content: center;
+  margin-top: 81px;
+}
+.container__pianos .title__cuestion {
+  width: 400px;
+  font-family: "Abril Fatface";
+  font-size: 32px;
+  line-height: 43px;
+  letter-spacing: 0.05em;
+  text-align: center;
+  justify-content: center;
+  margin-bottom: 70px;
+}
+.container__pianos .container__combo__pianos {
+  display: flex;
+  flex-direction: row;
+  margin-top: 81px;
+  justify-content: space-evenly;
+}
+.container__pianos .container__combo__pianos .white__piano {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 250px;
+  height: 239px;
+  background-color: white;
+  box-shadow: 0px 28px 64px 12px rgba(0, 0, 0, 0.12);
+  border-radius: 8px;
+}
+.container__pianos .container__combo__pianos .white__piano .image__piano-white {
+  width: 205px;
+  height: 165.86px;
+  margin-left: 20px;
+  margin-bottom: 22.14px;
+}
+.container__pianos .container__combo__pianos .white__piano .line__div {
+  width: 232px;
+  height: 0px;
+  border: 1px dashed #DBDBDB;
+  align-items: center;
+  margin-left: 9px;
+  margin-bottom: 15px;
+}
+.container__pianos .container__combo__pianos .white__piano .name-piano {
+  width: 182px;
+  height: 28px;
+  padding-left: 10px;
+  font-family: "Abril Fatface";
+  font-size: 16px;
+  color: black;
+  margin-bottom: 16px;
+  font-style: normal;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  line-height: 22px;
+  letter-spacing: 0.05em;
+}
+.container__pianos .container__combo__pianos .white__piano .text__caracteristic .list__caracteristic {
+  display: flex;
+  justify-content: space-evenly;
+  justify-items: center;
+  list-style: none;
+  align-content: center;
+  margin-bottom: 15px;
+}
+.container__pianos .container__combo__pianos .white__piano .text__caracteristic .list__caracteristic .ellisep {
+  width: 4px;
+  height: 4px;
+  background: black;
+}
+.container__pianos .container__combo__pianos .white__piano .sale__white-piano {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 90px;
+}
+.container__pianos .container__combo__pianos .white__piano .sale__white-piano .price__white-piano {
+  width: 161px;
+  height: 36px;
+  border: 1px solid black;
+  border-radius: 8px;
+  background-color: white;
+  margin-left: 16px;
+  padding-left: 10px;
+  margin-bottom: 16px;
+  display: flex;
+  font-family: "Raleway";
+  font-size: 16px;
+  color: black;
+  align-items: center;
+  text-align: center;
+  line-height: 19px;
+  letter-spacing: 0.05em;
+}
+.container__pianos .container__combo__pianos .white__piano .sale__white-piano .price__white-piano .black {
+  font-weight: bold;
+}
+.container__pianos .container__combo__pianos .white__piano .sale__white-piano .car__piano {
+  width: 36px;
+  height: 36px;
+  border-radius: 8px;
+  background-color: black;
+  padding-left: 5px;
+  padding-top: 5px;
+  align-content: center;
+  margin-left: 21px;
+  margin-right: 16px;
+  margin-bottom: 16px;
+}
+.container__pianos .container__combo__pianos .white__piano .sale__white-piano .car__piano .car__position {
+  padding-left: 20%;
+  padding-top: 20px;
+  background-color: black;
+}
+.container__pianos .container__combo__pianos .golden__piano {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 250px;
+  height: 239px;
+  background-color: white;
+  box-shadow: 0px 28px 64px 12px rgba(0, 0, 0, 0.12);
+  border-radius: 8px;
+}
+.container__pianos .container__combo__pianos .golden__piano .image__piano-golden {
+  width: 205px;
+  height: 165.86px;
+  margin-left: 20px;
+  margin-bottom: 22.14px;
+}
+.container__pianos .container__combo__pianos .golden__piano .line__div {
+  width: 232px;
+  height: 0px;
+  border: 1px dashed #DBDBDB;
+  align-items: center;
+  margin-left: 9px;
+  margin-bottom: 15px;
+}
+.container__pianos .container__combo__pianos .golden__piano .name-piano {
+  width: 182px;
+  height: 28px;
+  padding-left: 10px;
+  font-family: "Abril Fatface";
+  font-size: 16px;
+  color: black;
+  margin-bottom: 16px;
+  font-style: normal;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  line-height: 22px;
+  letter-spacing: 0.05em;
+}
+.container__pianos .container__combo__pianos .golden__piano .text__caracteristic .list__caracteristic {
+  display: flex;
+  justify-content: space-evenly;
+  justify-items: center;
+  list-style: none;
+  align-content: center;
+  margin-bottom: 15px;
+}
+.container__pianos .container__combo__pianos .golden__piano .text__caracteristic .list__caracteristic .ellisep {
+  width: 4px;
+  height: 4px;
+  background: black;
+  justify-content: center;
+}
+.container__pianos .container__combo__pianos .golden__piano .sale__white-piano {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 90px;
+}
+.container__pianos .container__combo__pianos .golden__piano .sale__white-piano .price__white-piano {
+  width: 161px;
+  height: 36px;
+  border: 1px solid black;
+  border-radius: 8px;
+  background-color: white;
+  margin-left: 16px;
+  padding-left: 10px;
+  margin-bottom: 16px;
+  display: flex;
+  font-family: "Raleway";
+  font-size: 16px;
+  color: black;
+  align-items: center;
+  text-align: center;
+  line-height: 19px;
+  letter-spacing: 0.05em;
+}
+.container__pianos .container__combo__pianos .golden__piano .sale__white-piano .price__white-piano .black {
+  font-weight: bold;
+}
+.container__pianos .container__combo__pianos .golden__piano .sale__white-piano .car__piano {
+  width: 36px;
+  height: 36px;
+  border-radius: 8px;
+  background-color: black;
+  padding-left: 5px;
+  padding-top: 5px;
+  align-content: center;
+  margin-left: 21px;
+  margin-right: 16px;
+  margin-bottom: 16px;
+}
+.container__pianos .container__combo__pianos .brown__piano {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 250px;
+  height: 239px;
+  background-color: white;
+  box-shadow: 0px 28px 64px 12px rgba(0, 0, 0, 0.12);
+  border-radius: 8px;
+}
+.container__pianos .container__combo__pianos .brown__piano .image__piano-brown {
+  width: 205px;
+  height: 165.86px;
+  margin-left: 20px;
+  margin-bottom: 22.14px;
+}
+.container__pianos .container__combo__pianos .brown__piano .line__div {
+  width: 232px;
+  height: 0px;
+  border: 1px dashed #DBDBDB;
+  align-items: center;
+  margin-left: 9px;
+  margin-bottom: 15px;
+}
+.container__pianos .container__combo__pianos .brown__piano .name-piano {
+  width: 182px;
+  height: 28px;
+  padding-left: 10px;
+  font-family: "Abril Fatface";
+  font-size: 16px;
+  color: black;
+  margin-bottom: 16px;
+  font-style: normal;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  line-height: 22px;
+  letter-spacing: 0.05em;
+}
+.container__pianos .container__combo__pianos .brown__piano .text__caracteristic .list__caracteristic {
+  display: flex;
+  justify-content: space-evenly;
+  justify-items: center;
+  list-style: none;
+  align-content: center;
+  margin-bottom: 15px;
+}
+.container__pianos .container__combo__pianos .brown__piano .text__caracteristic .list__caracteristic .ellisep {
+  width: 4px;
+  height: 4px;
+  background: black;
+}
+.container__pianos .container__combo__pianos .brown__piano .sale__white-piano {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 90px;
+}
+.container__pianos .container__combo__pianos .brown__piano .sale__white-piano .price__white-piano {
+  width: 161px;
+  height: 36px;
+  border: 1px solid black;
+  border-radius: 8px;
+  background-color: white;
+  margin-left: 16px;
+  padding-left: 10px;
+  margin-bottom: 16px;
+  display: flex;
+  font-family: "Raleway";
+  font-size: 16px;
+  color: black;
+  align-items: center;
+  text-align: center;
+  line-height: 19px;
+  letter-spacing: 0.05em;
+}
+.container__pianos .container__combo__pianos .brown__piano .sale__white-piano .price__white-piano .black {
+  font-weight: bold;
+}
+.container__pianos .container__combo__pianos .brown__piano .sale__white-piano .car__piano {
+  width: 36px;
+  height: 36px;
+  border-radius: 8px;
+  background-color: black;
+  padding-left: 5px;
+  padding-top: 5px;
+  align-content: center;
+  margin-left: 21px;
+  margin-right: 16px;
+  margin-bottom: 16px;
+}
+.container__pianos .button__ver {
+  width: 129px;
+  height: 32px;
+  border-radius: 8px;
+  font-family: "Raleway";
+  font-size: 14px;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  margin-top: 65px;
+}
+
+@media only screen and (max-width: 768px) {
+  .container__pianos {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+  }
+  .title__cuestion {
+    font-size: 24px;
+  }
+  .container__combo__pianos {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+  }
 }/*# sourceMappingURL=styles.css.map */

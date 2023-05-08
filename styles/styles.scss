@@ -1,3 +1,4 @@
+@import "vars";
 @mixin flex__standard-btn($color-btn, $background-color-btn) {
     border: 1px solid black;
     width: 129px;
@@ -133,7 +134,8 @@
             font-size: 14px;
         }
     }
-    .container__principalSection{
+
+    .container__principalSection {
         h1 {
             margin-top: 10px;
             font-family: 'Abril Fatface', cursive;
@@ -141,6 +143,7 @@
             font-weight: lighter;
         }
     }
+
     .container__piano .container_social_media {
         display: block;
         display: flex;
@@ -149,4 +152,285 @@
         left: 1300px;
         top: 780px;
     }
+}
+
+
+// sivia
+
+@mixin combo__box-piano {
+    width: 250px;
+    height: 239px;
+    background-color: $box-backgroung-color;
+    box-shadow: 0px 28px 64px 12px rgba(0, 0, 0, 0.12);
+    border-radius: 8px;
+    
+}
+@mixin name__pianos {
+    width: 182px;
+    height: 28px;
+    padding-left: 10px;
+    font-family: $titles-font-family;
+    font-size: $titles-font-size;
+    color: $titles-color;
+    
+    margin-bottom: 16px;
+    font-style: normal;
+    font-weight: 400;
+    display: flex;  
+    align-items: center;
+    
+    line-height: 22px;
+    letter-spacing: $spacing-letter;
+}
+@mixin box__price-piano {
+    width: 161px;
+    height: 36px;
+    border: $border-px $box-border-style $box-boder-color;
+    border-radius: $radius-border;
+    background-color: $box-backgroung-color;
+    margin-left: 16px;
+    padding-left: 10px;
+    margin-bottom: 16px;
+    display: flex;
+    font-family: $text-font-family;
+    font-size: $titles-font-size;
+    color: $titles-color;
+    align-items: center;
+    text-align: center;
+    line-height: 19px;
+    letter-spacing: $spacing-letter;
+    .black{
+        font-weight: bold;
+    }
+}
+@mixin car__shopping-piano {
+    width: 36px;
+    height: 36px;
+    border-radius: $radius-border;
+    background-color: $button-background-color;
+    padding-left: 5px;
+    padding-top: 5px;
+    align-content: center;
+    margin-left: 21px;
+    margin-right: 16px;
+    margin-bottom: 16px;
+}
+@mixin line {
+        width: 232px;
+        height: 0px;
+        border: 1px dashed #DBDBDB;
+        align-items: center;
+        margin-left: 9px;
+        margin-bottom: 15px;
+        
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+/*DUDA*/
+.container__pianos {
+     
+    display: flex;
+    flex-direction: column;
+    /*align-content: center;**/
+    align-content: center;
+    margin-top: 81px;
+    .title__cuestion {
+        width: 400px;
+        font-family: $titles-font-family;
+        font-size: $title-font-size;
+        line-height: 43px;
+        letter-spacing: $spacing-letter;
+        text-align: center;
+        justify-content: center;
+        margin-bottom: 70px;
+    }
+    .container__combo__pianos {
+        display: flex;
+        flex-direction: row;
+        margin-top: 81px;
+        justify-content: space-evenly;
+                
+        .white__piano {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            @include combo__box-piano;
+            .image__piano-white {
+                width: 205px;
+                height: 165.86px;
+                margin-left: 20px;
+                margin-bottom: 22.14px;
+                                
+            }
+            .line__div {
+                @include line;
+            }
+            .name-piano {
+                @include name__pianos;
+            }
+            .text__caracteristic {
+                
+                .list__caracteristic{
+                    display: flex;
+                    justify-content: space-evenly;
+                    justify-items: center;
+                    list-style: none;
+                    align-content: center;
+                    margin-bottom: 15px;
+                    .ellisep {
+                        width: 4px;
+                        height: 4px;
+                        background: black;
+                        
+                    }
+                }
+            }
+            .sale__white-piano{
+                display: flex;
+                flex-direction: row;
+                margin-bottom: 90px;
+                .price__white-piano {
+                    @include box__price-piano;
+                    
+                }
+                .car__piano {
+                    @include car__shopping-piano;
+                    .car__position{
+                        
+                        padding-left: 20%;
+                        padding-top: 20px;
+                        
+                        background-color: black;
+                        
+                    }
+                }
+            }
+        }
+        .golden__piano {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            @include combo__box-piano;
+            .image__piano-golden {
+                width: 205px;
+                height: 165.86px;
+                margin-left: 20px;
+                margin-bottom: 22.14px;
+                                
+            }
+            .line__div {
+                @include line;
+            }
+            .name-piano {
+                @include name__pianos;
+            }
+            .text__caracteristic{
+                .list__caracteristic{
+                    display: flex;
+                    justify-content: space-evenly;
+                    justify-items: center;
+                    list-style: none;
+                    align-content: center;
+                    margin-bottom: 15px;
+                    .ellisep {
+                        width: 4px;
+                        height: 4px;
+                        background: black;
+                        justify-content: center;
+                        
+                    }
+                }
+            }
+            .sale__white-piano{
+                display: flex;
+                flex-direction: row;
+                margin-bottom: 90px;
+                .price__white-piano {
+                    @include box__price-piano;
+                }
+                .car__piano {
+                    @include car__shopping-piano;
+                }
+            }
+        }
+        .brown__piano {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            @include combo__box-piano;
+            .image__piano-brown {
+                width: 205px;
+                height: 165.86px;
+                margin-left: 20px;
+                margin-bottom: 22.14px;
+                                
+            }
+            .line__div {
+                @include line;
+            }
+            .name-piano {
+                @include name__pianos;
+            }
+            .text__caracteristic{
+                .list__caracteristic{
+                    display: flex;
+                    justify-content: space-evenly;
+                    justify-items: center;
+                    list-style: none;
+                    align-content: center;
+                    margin-bottom: 15px;
+                    .ellisep {
+                        width: 4px;
+                        height: 4px;
+                        background: black;
+                        
+                    }
+                }
+            }
+            .sale__white-piano{
+                display: flex;
+                flex-direction: row;
+                margin-bottom: 90px;
+                .price__white-piano {
+                    @include box__price-piano;
+                }
+                .car__piano {
+                    @include car__shopping-piano;
+                }
+            }
+        }
+    }
+    .button__ver {
+        width: 129px;
+        height: 32px;
+        
+        border-radius: $radius-border;
+        font-family: $text-font-family;
+        font-size: $button-font-size;
+        background-color: $button-background-color;
+        color: white;
+        font-weight: bold;
+        margin-top: 65px;
+        
+    }
+    
+}
+@media only screen and (max-width: 768px) {
+    .container__pianos {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+    }
+    .title__cuestion {
+        font-size: 24px;
+    }
+    .container__combo__pianos {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+    }
+        
 }
